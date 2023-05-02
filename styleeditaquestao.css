@@ -1,0 +1,53 @@
+.form-group {
+    color: #191616;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+    background: #ecf0f1; 
+    border: 13px;
+    padding: 14px 32px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    gap: 10px;
+    border-radius: 4px;
+    cursor: pointer; 
+    margin-bottom: 10px;
+  }
+
+.form-control {
+    color: #191616;
+    border: 1px solid green;
+    text-transform: none;
+    font-family: 'Open Sans', sans-serif;
+    background: white; 
+    border: 13px;
+    padding: 14px 32px 15px;
+    display: flexbox;
+    align-items: center;
+    width: 75%;
+    justify-content: center;
+    gap: 10px;
+    border-radius: 4px;
+    cursor: pointer; 
+}
+
+.btex {
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    background: #FFBD59; 
+    border: 0;
+    padding: 14px 35px 15px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    width: 20%;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 4px;
+  }
+  
+ 

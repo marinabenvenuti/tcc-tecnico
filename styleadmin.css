@@ -1,0 +1,164 @@
+body {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  background: white;
+  min-height: 100vh;
+}
+  
+.page {
+  margin: 0 auto;
+  padding-top: 50px;
+  width: 1000px;
+  }
+  
+nav {
+  justify-content: space-between;
+  align-items: center;  
+  margin-bottom: 40px;
+  display: flex;
+  }
+  
+ul {
+  display: flex;
+  gap: 48px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  }
+  
+a {
+  text-decoration: none;
+  color: #191616;
+  }
+
+a:hover {
+  color: #191616;
+  }
+  
+ul li a {
+  opacity: 0.;
+}
+  
+ul li a:hover {
+  opacity: 1;
+  font-weight: bold;
+  }
+  
+h1, ul {
+  font-family: 'Mulish', sans-serif;
+  }
+  
+h2, ul {
+  font-family: 'Mulish', sans-serif;
+  }
+  
+main {
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+  }
+  
+  
+h3 {
+  margin-top: 1rem;
+  color: #191616;
+  font-weight: normal;
+}
+
+h2 {
+  font-size: 49px;
+  line-height: 56px;
+  color: #191616;
+  font-weight: normal;
+  width: 490px;
+  
+  }
+  
+h2 span {
+  font-weight: bold;
+  color: #FFBD59;
+}
+  
+section p {
+  line-height: 28px;
+  color: #4f4d55;
+  font-size: 15px;
+  width: 440px;
+  margin: 40px 0;
+}
+
+.selectionbox {
+  margin: 4px;
+  padding: 14px 32px 15px;
+  box-sizing: border-box;
+  border: none;
+  background-color: #ecf0f1;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.form-select {
+  margin: 4px;
+  padding: 14px 32px 15px;
+  box-sizing: border-box;
+  border: none; 
+  background-color: #ecf0f1;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btfafa { 
+
+  color: white;
+  display: inline-block;
+  margin-top: 4px;
+  margin-bottom: 25px;
+  text-transform: uppercase;
+  font-family: 'Open Sans', sans-serif;
+  background: #FFBD59; 
+  border: 0;
+  padding: 14px 10px 15px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  
+} 
+
+.button {
+  color: white;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+  font-family: 'Open Sans', sans-serif;
+  background: #FFBD59; 
+  border: 0;
+  padding: 14px 32px 15px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  border-radius: 4px;
+  cursor: pointer; 
+  margin-top: 4px;
+} 
+  
+footer {
+  font-size: 14px;
+  line-height: 28px; 
+  text-align: center;
+  margin-top: 80px;
+  }
+  
+footer a {
+  font-weight: bold;
+  }
